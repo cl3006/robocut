@@ -48,6 +48,7 @@ Error Cut(CutParams p);
 const int VENDOR_ID_GRAPHTEC = 0x0b4d; 
 const int PRODUCT_ID_CC200_20 = 0x110a;
 const int PRODUCT_ID_CC300_20 = 0x111a;
+const int PRODUCT_ID_XYRON = 0x1118;
 const int PRODUCT_ID_SILHOUETTE_SD_1 = 0x111c;
 const int PRODUCT_ID_SILHOUETTE_SD_2 = 0x111d;
 const int PRODUCT_ID_SILHOUETTE_CAMEO =  0x1121;

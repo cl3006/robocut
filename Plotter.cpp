@@ -152,6 +152,7 @@ libusb_device_handle *UsbOpen(struct cutter_id *id)
 		    (desc.idProduct == PRODUCT_ID ||
 		     desc.idProduct == PRODUCT_ID_CC200_20 ||
 		     desc.idProduct == PRODUCT_ID_CC300_20 ||
+             desc.idProduct == PRODUCT_ID_XYRON ||
 		     desc.idProduct == PRODUCT_ID_SILHOUETTE_SD_1 ||
 		     desc.idProduct == PRODUCT_ID_SILHOUETTE_SD_2 ||
 		     desc.idProduct == PRODUCT_ID_SILHOUETTE_CAMEO ||
